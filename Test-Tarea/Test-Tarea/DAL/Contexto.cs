@@ -41,7 +41,8 @@ namespace Test_Tarea.DAL
         //Otros
         public DbSet<Imagen> imagen { set; get; }
         public DbSet<Proveedor> proveedor { set; get; }
+        public DbSet<Cliente> cliente { set; get; }
 
-    public Contexto() : base("Constr") { }
+        public Contexto() : base("Constr") { }
     }
 }

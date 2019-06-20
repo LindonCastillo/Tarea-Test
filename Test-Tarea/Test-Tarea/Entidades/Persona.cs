@@ -19,7 +19,9 @@ namespace Test_Tarea.Entidades
         public string Telefono { get; set; }
         public string Correo { get; set; }
         public string Sexo { get; set; }
+        public int IdImagen { get; set; }
         public string Direccion { get; set; }
+        public int IdTipoPersona { get; set; }
 
 
         public Persona()
@@ -33,7 +35,9 @@ namespace Test_Tarea.Entidades
             Telefono = string.Empty;
             Correo = string.Empty;
             Sexo = string.Empty;
+            IdImagen = 0;
             Direccion = string.Empty;
+            IdTipoPersona = 0;
         }
     }
 }

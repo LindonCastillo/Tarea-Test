@@ -16,6 +16,11 @@ namespace Test_Tarea.Entidades
         public DateTime FechaFabricacion { get; set; }
         public double CostoCompra { get; set; }
         public double Stock { get; set; }
+        public int IdUnidadMedida { get; set; }
+        public int IdImagen { get; set; }
+        public int IdMarca { get; set; }
+        public int IdCategoria { get; set; }
+        public int IdModelo { get; set; }
 
 
         public Producto()
@@ -26,6 +31,11 @@ namespace Test_Tarea.Entidades
             FechaFabricacion = DateTime.Now;
             CostoCompra = 0;
             Stock = 0;
+            IdUnidadMedida = 0;
+            IdImagen = 0;
+            IdMarca = 0;
+            IdCategoria = 0;
+            IdModelo = 0;
         }
     }
 }
