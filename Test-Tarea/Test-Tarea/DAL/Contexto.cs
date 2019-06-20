@@ -14,15 +14,20 @@ namespace Test_Tarea.DAL
         public DbSet<Persona> persona { get; set; }
         public DbSet<TipoPersona> tipoPersona { get; set; }
         public DbSet<Empleado> empleado { set; get; }
-        public DbSet<Usuario> usuario { set; get; }
         public DbSet<Cargo> cargo { set; get; }
         public DbSet<Estado> estado { set; get; }
+
+        //Usuario
+        public DbSet<Usuario> usuario { set; get; }
+        public DbSet<Permiso> permiso { set; get; }
+        public DbSet<Usuario_Has_Permiso> usuarioPermiso  { set; get; }
 
         //Producto
         public DbSet<Producto> producto { set; get; }
         public DbSet<Categoria> categoria { set; get; }
         public DbSet<Marca> marca { set; get; }
         public DbSet<UnidadMedida> unidadMedida { set; get; }
+        public DbSet<Modelo> modelo { set; get; }
 
         //Compra
         public DbSet<Compra> compra { set; get; }
@@ -35,7 +40,7 @@ namespace Test_Tarea.DAL
 
         //Otros
         public DbSet<Imagen> imagen { set; get; }
-        public DbSet<> { set; get; }
+        public DbSet<Proveedor> proveedor { set; get; }
 
     public Contexto() : base("Constr") { }
     }
