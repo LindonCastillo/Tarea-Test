@@ -13,6 +13,10 @@ namespace Test_Tarea.DAL
         //Persona
         public DbSet<Persona> persona { get; set; }
         public DbSet<TipoPersona> tipoPersona { get; set; }
+        public DbSet<Empleado> empleado { set; get; }
+        public DbSet<Usuario> usuario { set; get; }
+        public DbSet<Cargo> cargo { set; get; }
+        public DbSet<Estado> estado { set; get; }
 
         //Producto
         public DbSet<Producto> producto { set; get; }
@@ -22,10 +26,17 @@ namespace Test_Tarea.DAL
 
         //Compra
         public DbSet<Compra> compra { set; get; }
+        public DbSet<CompraDetalle> compraDetalle { set; get; }
 
+        //Venta
+        public DbSet<Venta> venta { set; get; }
+        public DbSet<VentaDetalle> ventaDetalle { set; get; }
+        public DbSet<TipoComprobante> tipoComprobante { set; get; }
 
+        //Otros
+        public DbSet<Imagen> imagen { set; get; }
+        public DbSet<> { set; get; }
 
-
-        public Contexto() : base("Constr") { }
+    public Contexto() : base("Constr") { }
     }
 }
