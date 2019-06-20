@@ -23,5 +23,21 @@ namespace Test_Tarea.Entidades
 
 
         public virtual List<TipoPersona> Tipo { get; set; }
+
+
+        public Persona()
+        {
+            IdPersona = 0;
+            Dni = 0;
+            Nombre = string.Empty;
+            Materno = string.Empty;
+            Paterno = string.Empty;
+            FechaNacimiento = DateTime.Now;
+            Telefono = string.Empty;
+            Correo = string.Empty;
+            Sexo = string.Empty;
+            Direccion = string.Empty;
+
+        }
     }
 }
