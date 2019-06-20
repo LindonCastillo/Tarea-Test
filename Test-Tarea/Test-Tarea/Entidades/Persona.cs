@@ -22,9 +22,6 @@ namespace Test_Tarea.Entidades
         public string Direccion { get; set; }
 
 
-        public virtual List<TipoPersona> Tipo { get; set; }
-
-
         public Persona()
         {
             IdPersona = 0;
@@ -37,7 +34,6 @@ namespace Test_Tarea.Entidades
             Correo = string.Empty;
             Sexo = string.Empty;
             Direccion = string.Empty;
-
         }
     }
 }
