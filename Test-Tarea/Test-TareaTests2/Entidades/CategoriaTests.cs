@@ -31,7 +31,7 @@ namespace Test_Tarea.Entidades.Tests
             RepositorioBase<Categoria> db = new RepositorioBase<Categoria>();
 
             Categoria categoria = new Categoria();
-            categoria.IdCategoria = 0;
+            categoria.IdCategoria = 1;
             categoria.NombreCategoria = "Algo";
             categoria.Descripcion = "Algo ahi";
 
