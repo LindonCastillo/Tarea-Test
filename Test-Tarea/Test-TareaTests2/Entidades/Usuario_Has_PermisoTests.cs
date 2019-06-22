@@ -54,7 +54,7 @@ namespace Test_Tarea.Entidades.Tests
         }
 
         [TestMethod()]
-        public void EliminarTest()
+        public void EliminarTest() 
         {
             RepositorioBase<Usuario_Has_Permiso> db = new RepositorioBase<Usuario_Has_Permiso>();
 
