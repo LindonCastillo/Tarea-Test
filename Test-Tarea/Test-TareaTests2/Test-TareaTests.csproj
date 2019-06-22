@@ -66,6 +66,7 @@
     <Compile Include="Entidades\CargoTests.cs" />
     <Compile Include="Entidades\CategoriaTests.cs" />
     <Compile Include="Entidades\ClienteTests.cs" />
+    <Compile Include="Entidades\EmpleadoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
