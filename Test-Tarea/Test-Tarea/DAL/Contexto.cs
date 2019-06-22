@@ -13,8 +13,8 @@ namespace Test_Tarea.DAL
         public DbSet<Cargo> cargo { set; get; }
         public DbSet<Categoria> categoria { set; get; }
         public DbSet<Cliente> cliente { set; get; }
-        //public DbSet<Compra> compra { set; get; }
-        //public DbSet<CompraDetalle> compraDetalle { set; get; }
+        public DbSet<Compra> compra { set; get; }
+        public DbSet<CompraDetalle> compraDetalle { set; get; }
         public DbSet<Empleado> empleado { set; get; }
         public DbSet<Estado> estado { set; get; }
         public DbSet<Imagen> imagen { set; get; }
@@ -29,8 +29,8 @@ namespace Test_Tarea.DAL
         public DbSet<UnidadMedida> unidadMedida { set; get; }
         public DbSet<Usuario> usuario { set; get; }
         public DbSet<Usuario_Has_Permiso> usuarioPermiso  { set; get; }
-        //public DbSet<Venta> venta { set; get; }
-        //public DbSet<VentaDetalle> ventaDetalle { set; get; }
+        public DbSet<Venta> venta { set; get; }
+        public DbSet<VentaDetalle> ventaDetalle { set; get; }
 
 
         public Contexto() : base("Constr") { }

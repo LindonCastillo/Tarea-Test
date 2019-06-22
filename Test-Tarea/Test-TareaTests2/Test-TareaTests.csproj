@@ -66,6 +66,8 @@
     <Compile Include="Entidades\CargoTests.cs" />
     <Compile Include="Entidades\CategoriaTests.cs" />
     <Compile Include="Entidades\ClienteTests.cs" />
+    <Compile Include="Entidades\CompraDetalleTests.cs" />
+    <Compile Include="Entidades\CompraTests.cs" />
     <Compile Include="Entidades\EmpleadoTests.cs" />
     <Compile Include="Entidades\EstadoTests.cs" />
     <Compile Include="Entidades\ImagenTests.cs" />
@@ -80,6 +82,8 @@
     <Compile Include="Entidades\UnidadMedidaTests.cs" />
     <Compile Include="Entidades\UsuarioTests.cs" />
     <Compile Include="Entidades\Usuario_Has_PermisoTests.cs" />
+    <Compile Include="Entidades\VentaDetalleTests.cs" />
+    <Compile Include="Entidades\VentaTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
