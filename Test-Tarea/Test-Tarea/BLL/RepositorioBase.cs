@@ -6,10 +6,11 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Test_Tarea.DAL;
+using Test_Tarea.BLL;
 
 namespace Test_Tarea.BLL
 {
-    public class RepositorioBase
+    public class RepositorioBase<T> : IDisposable , IRepository<T> where T: class
     {
         internal Contexto contexto;
 
