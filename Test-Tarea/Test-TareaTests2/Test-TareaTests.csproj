@@ -67,6 +67,19 @@
     <Compile Include="Entidades\CategoriaTests.cs" />
     <Compile Include="Entidades\ClienteTests.cs" />
     <Compile Include="Entidades\EmpleadoTests.cs" />
+    <Compile Include="Entidades\EstadoTests.cs" />
+    <Compile Include="Entidades\ImagenTests.cs" />
+    <Compile Include="Entidades\MarcaTests.cs" />
+    <Compile Include="Entidades\ModeloTests.cs" />
+    <Compile Include="Entidades\PermisoTests.cs" />
+    <Compile Include="Entidades\PersonaTests.cs" />
+    <Compile Include="Entidades\ProductoTests.cs" />
+    <Compile Include="Entidades\ProveedorTests.cs" />
+    <Compile Include="Entidades\TipoComprobanteTests.cs" />
+    <Compile Include="Entidades\TipoPersonaTests.cs" />
+    <Compile Include="Entidades\UnidadMedidaTests.cs" />
+    <Compile Include="Entidades\UsuarioTests.cs" />
+    <Compile Include="Entidades\Usuario_Has_PermisoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -32,7 +32,7 @@ namespace Test_Tarea.Entidades.Tests
             RepositorioBase<Empleado> db = new RepositorioBase<Empleado>();
 
             Empleado empleado = new Empleado();
-            empleado.IdEmpleado = 1;
+            empleado.IdEmpleado = 2;
             empleado.IdEstado = 2;
             empleado.IdCargo = 2;
             empleado.IdPersona = 3;
@@ -45,7 +45,7 @@ namespace Test_Tarea.Entidades.Tests
         {
             RepositorioBase<Empleado> db = new RepositorioBase<Empleado>();
 
-            Assert.IsNotNull(db.Buscar(1));
+            Assert.IsNotNull(db.Buscar(2));
 
         }
 
@@ -63,7 +63,7 @@ namespace Test_Tarea.Entidades.Tests
         {
             RepositorioBase<Empleado> db = new RepositorioBase<Empleado>();
 
-            Assert.IsTrue(db.Eliminar(1));
+            Assert.IsTrue(db.Eliminar(2));
         }
     }
 }

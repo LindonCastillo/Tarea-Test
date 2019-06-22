@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace Test_Tarea.Entidades
 {
     public class Imagen
     {
+        [Key]
         public int IdImagen { get; set; }
         public string RutaImagen { get; set; }
 
